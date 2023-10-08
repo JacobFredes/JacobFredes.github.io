@@ -1,0 +1,131 @@
+/* ESTILOS GLOBALES*/
+
+* {
+    margin:0;      /* Configura el margin a cero ya que el que viene por defecto del navegador no nos sirve */
+    padding: 0;
+    box-sizing: border-box;
+}
+/* NAV */
+
+
+.header {
+    background-color: #353A40 !important;  /*Color de fondo del header*/
+    position: fixed; /* Esto permite que el menú siempre quede anclado por más que hagamos scroll*/
+    width: 100%;   /* Ocupa el ancho completo de la pantalla */
+    top: 0;
+    left: 0;
+    color: white;
+    height: 90px; /*altura del header */  
+    z-index: 1001;
+} 
+
+.nav{
+    display: flex; /* permite crear diseños flexibles y adaptativos en una página web, lo que facilita la alineación y distribución de elementos dentro de un contenedor*/
+    justify-content: space-between; /* distribuye los elementos secundarios a lo largo del eje principal de manera que haya espacio adicional entre ellos*/
+
+}
+.nav-link{
+    color: #999998;
+    text-decoration: none; /* le quita la linea debajo del hipervínculo*/
+}
+.nav-link-ticket{
+    color: #289d43;
+    text-decoration: none;
+}
+.logo {
+    height: 60px;
+    padding: 10px 0px 0px 0px;
+    line-height: 90px;
+    }
+.title{
+    display: flex;
+    line-height: 60px;
+    width: max-content;
+}
+.nav-menu {
+    display: flex; /*las deja una al lado de la otra y no en lista*/
+    margin-right: 90px; /*Distancia del margen derecho*/
+    list-style: none; /*les quita el º de lista */
+}
+
+.nav-menu-item{
+    margin: 0 10px; /*margen entre ellos, de arriba y abajo 0 y de izquierda y derecha 10px */
+    line-height: 60px; /* teniendo en cuenta la altura configurada del header */
+    width: max-content; /* no corta el contenido (mas de dos palabras) del menu*/
+}
+
+.nav-menu-link:hover{
+    color: chocolate;
+
+}
+.title {
+    display: inline;
+    padding-bottom: 50px;
+}
+
+
+/* BODY*/
+.body{
+    font-family: sans-serif;
+    padding: 90px 20px 0;
+   ;
+}
+.frontImage {
+    width: 1000px;
+}
+
+.card-text{
+    text-align: justify;
+}
+.image { 
+width:  300px;
+}
+/*TARJETAS*/
+
+
+
+/*FORMULARIO*/
+.container{
+    margin-left: 1%;
+    align-content: center;
+    padding-left: 20%;
+}
+.col-3{
+    margin-left: 25px;
+
+}
+.btn-success{
+    margin-top: 25px;
+    background-color: #96c93e !important;
+    border: none;
+}
+/* FOOTER */
+
+/*.footer ul li{
+    display:flex;
+    justify-content:space-between ;
+    background-color: ;
+    background: linear-gradient(to right,rgba(28,54,67,255), rgba(31,82,113,255));
+    color: white;
+    list-style: none;
+    align-items: center;
+}*/
+
+/* BOTONES*/
+
+.btn-info{
+    color:white;
+}
+
+.footer ul{
+        background:linear-gradient(to right,rgba(28,54,67,255), rgba(31,82,113,255));
+        font-size: 20px;
+        list-style: none;
+        color: white;
+        text-align: center;
+        padding: 1em 0px;
+        margin: 0 10px;
+        width: 100%;
+        display:flex;
+        justify-content:space-between ;
+        align-items: center;}
