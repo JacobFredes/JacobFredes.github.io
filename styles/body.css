@@ -8,6 +8,13 @@
 .targetContainer col{
    align-items : center;
 }
+/* IMAGEN CENTRAL*/
+
+.centerImg{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color:#353a40 ;
+}
 
 /*FORMULARIO*/
 .container{
