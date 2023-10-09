@@ -9,6 +9,7 @@
     display:flex;
     justify-content:space-between !important;
     align-items: center;
+    margin-top: 30px;
     margin-bottom: 0;
     padding-right: 150px;
     padding-left: 150px;}
