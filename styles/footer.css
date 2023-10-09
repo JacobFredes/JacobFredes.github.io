@@ -4,9 +4,18 @@
     list-style: none;
     color: white;
     text-align: center;
-    padding: 1em 0px;
-    margin: 0 10px;
+    height: 100px;
     width: 100%;
     display:flex;
     justify-content:space-between ;
-    align-items: center;}
+    align-items: center;
+margin-bottom: 0;}
+
+.copyright{
+    background: rgba(28,54,67,255);
+    height: 30px;
+    color: white;
+    margin-bottom: 0;
+    font-size: medium;
+    
+}
