@@ -4,18 +4,20 @@
     list-style: none;
     color: white;
     text-align: center;
-    height: 100px;
+    height: 70px;
     width: 100%;
     display:flex;
-    justify-content:space-between ;
+    justify-content:space-between !important;
     align-items: center;
-margin-bottom: 0;}
+    margin-bottom: 0;
+    padding-right: 150px;
+    padding-left: 150px;}
 
 .copyright{
-    background: rgba(28,54,67,255);
-    height: 30px;
+    background: rgba(20,50,67,255);
+    height: 40px;
     color: white;
     margin-bottom: 0;
     font-size: medium;
-    
+    padding-top: 10px;
 }
