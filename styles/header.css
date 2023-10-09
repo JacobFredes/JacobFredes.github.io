@@ -25,10 +25,12 @@
 
 }
 .nav-link{
+    font-size: 22px !important;
     color: #999998 !important;
     text-decoration: none; /* le quita la linea debajo del hipervínculo*/
 }
 .nav-link-ticket{
+    font-size: 22px !important;
     color: #289d43;
     text-decoration: none;
     line-height: 75px;
