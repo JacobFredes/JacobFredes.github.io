@@ -19,29 +19,17 @@
 /*FORMULARIO*/
 .container{
     margin-left: 1%;
-    align-content: center;
     padding-left: 20%;
 }
-.col-3{
-    margin-left: 25px;
 
-}
 .btn-success{
-    margin-top: 25px;
+    margin-top: 25px !important;
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 40% !important;
     background-color: #96c93e !important;
     border: none;
 }
-/* FOOTER */
-
-/*.footer ul li{
-    display:flex;
-    justify-content:space-between ;
-    background-color: ;
-    background: linear-gradient(to right,rgba(28,54,67,255), rgba(31,82,113,255));
-    color: white;
-    list-style: none;
-    align-items: center;
-}*/
 
 /* BOTONES*/
 
