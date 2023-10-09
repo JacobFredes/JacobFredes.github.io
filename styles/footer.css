@@ -1,0 +1,12 @@
+.footer ul{
+    background:linear-gradient(to right,rgba(28,54,67,255), rgba(31,82,113,255));
+    font-size: 20px;
+    list-style: none;
+    color: white;
+    text-align: center;
+    padding: 1em 0px;
+    margin: 0 10px;
+    width: 100%;
+    display:flex;
+    justify-content:space-between ;
+    align-items: center;}
