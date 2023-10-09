@@ -5,7 +5,9 @@
    ;
 }
 /*TARJETAS*/
-
+.targetContainer col{
+   align-items : center;
+}
 
 /*FORMULARIO*/
 .container{

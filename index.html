@@ -24,7 +24,7 @@
         </nav>
     </header>
     <main>
-        <section>
+        <section >
             <div id="carouselExampleIndicators" class="carousel slide">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -51,71 +51,74 @@
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
-            <h3>Conoce a los</h3>
-            <h3>Oradores</h3>
+            <h3 align="center">Conoce a los</h3>
+            <h3 align="center">Oradores</h3>
+        </section>
+        <section class="targetContainer">
             <div class="row mx-5">
-                <!--TARJETA 1-->
-                <div class="col">
-                <div class="card" style="width: 18rem;">
-                <img src="./assets/img/steve.jpg" class="card-img-top" alt="...">
+            <!--TARJETA 1-->
+            <div class="col">
+            <div class="card" style="width: 18rem;">
+            <img src="./assets/img/steve.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <button type="button" class="btn btn-warning">Javascript</button>
+                <button type="button" class="btn btn-info">React</button>
+                <h5 class="card-title">Steve Jobs</h5>
+                <p class="card-text">Steve Jobs fue un cofundador de Apple, visionario de la tecnología y líder carismático. Revolucionó la industria de la tecnología con productos icónicos como el iPhone y el iPad. Su enfoque en la simplicidad y el diseño innovador dejó una huella indeleble en la industria y en la cultura global.</p>
+            </div>
+        </div>
+        </div>
+        <div class="col">
+            <!--TARJETA 2 -->
+            <div class="card" style="width: 18rem;">
+                <img src="./assets/img/bill.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <button type="button" class="btn btn-warning">Javascript</button>
                     <button type="button" class="btn btn-info">React</button>
-                    <h5 class="card-title">Steve Jobs</h5>
-                    <p class="card-text">Steve Jobs fue un cofundador de Apple, visionario de la tecnología y líder carismático. Revolucionó la industria de la tecnología con productos icónicos como el iPhone y el iPad. Su enfoque en la simplicidad y el diseño innovador dejó una huella indeleble en la industria y en la cultura global.</p>
+                    <h5 class="card-title">Bill gates</h5>
+                    <p class="card-text">Bill Gates es un influyente empresario, cofundador de Microsoft. Su liderazgo transformó la computación personal y la industria del software. Además, es un destacado filántropo, dedicando su fortuna a causas benéficas globales, incluida la lucha contra enfermedades y la promoción de la educación.</p>
                 </div>
             </div>
+        </div>
+        <div class="col">
+            <!--TARJETA 2 -->
+            <div class="card" style="width: 18rem;">
+            <img src="./assets/img/ada.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <button type="button" class="btn btn-secondary">Negocios</button>
+                <button type="button" class="btn btn-danger">Startups</button>
+                <h5 class="card-title">Ada Lovelace</h5>
+                <p class="card-text">Ada Lovelace fue una matemática y escritora del siglo XIX. Es considerada la primera programadora de la historia por su trabajo con la Máquina Analítica de Charles Babbage. Su visión pionera de la informática allanó el camino para la era digital y la programación de computadoras.</p>
             </div>
-            <div class="col">
-                <!--TARJETA 2 -->
-                <div class="card" style="width: 18rem;">
-                    <img src="./assets/img/bill.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <button type="button" class="btn btn-warning">Javascript</button>
-                        <button type="button" class="btn btn-info">React</button>
-                        <h5 class="card-title">Bill gates</h5>
-                        <p class="card-text">Bill Gates es un influyente empresario, cofundador de Microsoft. Su liderazgo transformó la computación personal y la industria del software. Además, es un destacado filántropo, dedicando su fortuna a causas benéficas globales, incluida la lucha contra enfermedades y la promoción de la educación.</p>
-                    </div>
-                </div>
             </div>
-            <div class="col">
-                <!--TARJETA 2 -->
-                <div class="card" style="width: 18rem;">
-                <img src="./assets/img/ada.jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <button type="button" class="btn btn-secondary">Negocios</button>
-                    <button type="button" class="btn btn-danger">Startups</button>
-                    <h5 class="card-title">Ada Lovelace</h5>
-                    <p class="card-text">Ada Lovelace fue una matemática y escritora del siglo XIX. Es considerada la primera programadora de la historia por su trabajo con la Máquina Analítica de Charles Babbage. Su visión pionera de la informática allanó el camino para la era digital y la programación de computadoras.</p>
-                </div>
-                </div>
-            </div>
+        </div>
         </section>
         <section>
             <div>
-                <h3>Conviertete en un orador</h3>
-                <h3>ORADOR</h3>
-                <h3>Anotáte como orador para dar una charla ignite. ¡Cuéntanos de qu+e quieres hablar!</h3>
+                <h3 align="center">Conviertete en un orador</h3>
+                <h3 align="center">ORADOR</h3>
+                <h3 align="center">Anotáte como orador para dar una charla ignite. ¡Cuéntanos de que quieres hablar!</h3>
             </div>
         </section>
         <section>
-            <div class="container"></div>
+            <div class="container" ></div>
             <form class="row">
-                <div class="col-3">
+                <div class="col-3" >
                     <label for="nameInput" class="form-label"></label>
                     <input type="text" class="form-control" id="nameInput" placeholder="Nombre">
                 </div>
                 <div class="col-3">
                     <label for="surnameInput" class="form-label"></label>
-                    <input type="text" class="form-control" id="surnameInput" placeholder="Apellido">
+                    <input type="text" class="form-control" id="surnameInput" placeholder="Apellido" >
                 </div>
                 <div class="col-6">
                     <label for="commentInput" class="form-label"></label>
                     <textarea class="form-control"  name="comment" id="commentInput" cols="30" rows="10" placeholder="¿Sobre qué quieres hablar?"></textarea>
                 </div>
-                <button type="button" class="btn btn-success">Success</button>
+                <button type="button" class="btn btn-success">Enviar</button>
             </form>
         </section>
+        
     </main>
     <hr>
     <footer class="footer">
