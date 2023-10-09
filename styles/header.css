@@ -25,21 +25,23 @@
 
 }
 .nav-link{
-    color: #999998;
+    color: #999998 !important;
     text-decoration: none; /* le quita la linea debajo del hipervínculo*/
 }
 .nav-link-ticket{
     color: #289d43;
     text-decoration: none;
+    line-height: 75px;
 }
 .logo {
-    height: 60px;
-    padding: 10px 0px 0px 0px;
-    line-height: 90px;
+    height: 70px;
+    padding: 0 40px !important;
+    margin-top: 10px;
+    line-height: 70px;
     }
 .title{
     display: flex;
-    line-height: 60px;
+    line-height: 80px;
     width: max-content;
 }
 .nav-menu {
@@ -58,7 +60,4 @@
     color: chocolate;
 
 }
-.title {
-    display: inline;
-    padding-bottom: 50px;
-}
+
