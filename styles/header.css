@@ -1,63 +1,60 @@
-/* ESTILOS GLOBALES*/
 
+/* ESTILOS GLOBALES*/
+html {
+    margin: 0;
+    height: 100vh;
+}
 * {
-    margin:0;      /* Configura el margin a cero ya que el que viene por defecto del navegador no nos sirve */
-    padding: 0;
+    margin:0 ;      /* Configura el margin a cero ya que el que viene por defecto del navegador no nos sirve */
+    padding: 0 ;
     box-sizing: border-box;
 }
+/*HEADER*/
+
+header{
+    background-color: #343a40;
+    height: 100px;
+}
+
 /* NAV */
-
-
-.header {
-    background-color: #353A40 !important;  /*Color de fondo del header*/
-    position: fixed; /* Esto permite que el menú siempre quede anclado por más que hagamos scroll*/
-    width: 100%;   /* Ocupa el ancho completo de la pantalla */
-    top: 0;
-    left: 0;
-    color: white;
-    height: 90px; /*altura del header */  
-    z-index: 1001;
-} 
-
 .nav{
-    display: flex; /* permite crear diseños flexibles y adaptativos en una página web, lo que facilita la alineación y distribución de elementos dentro de un contenedor*/
-    justify-content: space-between; /* distribuye los elementos secundarios a lo largo del eje principal de manera que haya espacio adicional entre ellos*/
-
+    align-items: center;
 }
-.nav-link{
-    color: #999998 !important;
-    text-decoration: none; /* le quita la linea debajo del hipervínculo*/
+/*LOGO*/
+.col-link-log{
+    text-align: center;
 }
-.nav-link-ticket{
-    color: #289d43;
-    text-decoration: none;
-    line-height: 75px;
-}
-.logo {
+.logo{
     height: 70px;
-    padding: 0 40px !important;
-    margin-top: 10px;
-    line-height: 70px;
-    }
+    padding-left: 80px;
+}
+.col-link-nav a{
+    color: #969593;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16.5px;
+}
+
+
+/*TÍTULO*/
+.col-link-title a{
+    text-decoration: none;
+    padding-left: 80px;
+}
 .title{
-    display: flex;
-    line-height: 80px;
-    width: max-content;
-}
-.nav-menu {
-    display: flex; /*las deja una al lado de la otra y no en lista*/
-    margin-right: 90px; /*Distancia del margen derecho*/
-    list-style: none; /*les quita el º de lista */
+    color: white;
+    margin-bottom: 0;
 }
 
-.nav-menu-item{
-    margin: 0 10px; /*margen entre ellos, de arriba y abajo 0 y de izquierda y derecha 10px */
-    line-height: 60px; /* teniendo en cuenta la altura configurada del header */
-    width: max-content; /* no corta el contenido (mas de dos palabras) del menu*/
+
+
+/*MENU*/
+.col-link-nav {
+    justify-content: end;
 }
-
-.nav-menu-link:hover{
-    color: chocolate;
-
+.buy a{
+    color: #6cb83e;
 }
-
+.buy a:hover{
+    color: orange;
+}

@@ -1,24 +1,92 @@
-.footer ul{
+footer{
     background:linear-gradient(to right,rgba(28,54,67,255), rgba(31,82,113,255));
-    font-size: 20px;
-    list-style: none;
+    height:100px;
+    justify-content: center;
+    align-items: center;
+    bottom:0px;
+    position: absolute;
+    width: 100vw; /*Me permite tener el ancho completo teniendo inclusive Bootstrap*/
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.footer-links{
+    color: white;
+    text-decoration: none;
+    justify-content: space-between;
+    text-align: center;
+}
+.col-link-footer{
+    width: 5px;
+}
+.copyright-footer{
+    font-size: 22px;
+}
+.copyright {
     color: white;
     text-align: center;
-    height: 70px;
-    width: 100%;
-    display:flex;
-    justify-content:space-between !important;
-    align-items: center;
-    margin-top: 30px;
-    margin-bottom: 0;
-    padding-right: 150px;
-    padding-left: 150px;}
-
-.copyright{
-    background: rgba(20,50,67,255);
-    height: 40px;
-    color: white;
-    margin-bottom: 0;
-    font-size: medium;
-    padding-top: 10px;
+    height: 30px;
+    background:linear-gradient(to right,rgba(28,54,67,255), rgba(31,82,113,255));
 }
+.large{
+    color: white;
+    width: 20px !important;
+    text-decoration: none ;
+    font-size: 18px;}
+
+    @media (max-width: 1320px){
+        footer{
+            background:linear-gradient(to right,rgba(28,54,67,255), rgba(31,82,113,255));
+            height:120px;
+            justify-content: center;
+            align-items: center;
+            bottom:0px;
+            position: absolute;
+            width: 100vw; /*Me permite tener el ancho completo teniendo inclusive Bootstrap*/
+            margin-bottom: 0px;
+            margin-top: 0px;
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+    }
+
+
+
+    @media (max-width: 788px) {
+        footer{
+            background:linear-gradient(to right,rgba(28,54,67,255), rgba(31,82,113,255));
+            height:150px;
+            justify-content: center;
+            align-items: center;
+            bottom:0px;
+            position: absolute;
+            width: 100vw; /*Me permite tener el ancho completo teniendo inclusive Bootstrap*/
+            margin-bottom: 0px;
+            margin-top: 0px;
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+        .copyright {
+            color: white;
+            text-align: center;
+            height: 30px;
+            background:linear-gradient(to right,rgba(28,54,67,255), rgba(31,82,113,255));
+        }
+    }
+
+    @media (max-width: 768px){
+        footer{
+            background:linear-gradient(to right,rgba(28,54,67,255), rgba(31,82,113,255));
+            height:250px;
+            justify-content: center;
+            align-items: center;
+            bottom:0px;
+            position: absolute !important;
+            margin-bottom: 0px;
+            margin-top: 0px;
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+    }
